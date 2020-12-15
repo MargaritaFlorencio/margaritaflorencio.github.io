@@ -10112,3 +10112,11 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+#about { 
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../assets/img/about.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+    /*background-position: center;*/
+    background-size:cover;
+}
