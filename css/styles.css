@@ -165,7 +165,7 @@ a {
 }
 a:hover {
   color: #824027;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
 a:not([href]):not([class]) {
@@ -4120,7 +4120,7 @@ input[type=button].btn-block {
 .navbar-expand-lg > .container-fluid,
 .navbar-expand-lg > .container-sm,
 .navbar-expand-lg > .container-md,
-.navbar-expand-lg > .container-lg,
+.navbar-expand-lg > .contais:issue is:open iner-lg,
 .navbar-expand-lg > .container-xl {
     padding-right: 0;
     padding-left: 0;
@@ -6075,7 +6075,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #609c9d !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9777,7 +9777,8 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #609c9d !important;
+  font-weight: bold;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10006,6 +10007,7 @@ h1 {
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
+  color: #4f4f4f;
 }
 
 .subheading {
@@ -10013,6 +10015,7 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+  color: #4f4f4f;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -10073,7 +10076,7 @@ p.lead {
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
-  margin-right: 1.5rem;
+  margin-right: 2em;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
@@ -10114,9 +10117,18 @@ section.resume-section .resume-section-content {
 }
 
 #about { 
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../assets/img/about.jpg");
+    background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("../assets/img/about.jpg");
     background-repeat: no-repeat;
     background-color: white;
     /*background-position: center;*/
     background-size:cover;
+}
+
+.ai {
+    height: 1em;
+    font-size: 1.35em;
+}
+
+a {
+    color: #609c9d; 
 }
