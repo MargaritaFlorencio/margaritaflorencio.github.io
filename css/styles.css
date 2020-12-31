@@ -10122,6 +10122,8 @@ section.resume-section .resume-section-content {
     background-color: white;
     /*background-position: center;*/
     background-size:cover;
+    max-width: 100rem;
+    min-height: 50vh;
 }
 
 .ai {
@@ -10131,4 +10133,8 @@ section.resume-section .resume-section-content {
 
 a {
     color: #609c9d; 
+}
+
+#aboutme { 
+    min-height: 50vh;
 }
