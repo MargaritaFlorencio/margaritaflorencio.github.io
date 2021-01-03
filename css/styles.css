@@ -2529,7 +2529,7 @@ fieldset:disabled a.btn {
 
 .btn-info {
   color: #fff;
-  background-color: #17a2b8;
+  background-color: #609c9d;
   border-color: #17a2b8;
 }
 .btn-info:hover {
@@ -10002,6 +10002,7 @@ h6 {
 
 h1 {
   line-height: 1;
+  margin-left: -4px;
 }
 
 p.lead {
@@ -10123,7 +10124,7 @@ section.resume-section .resume-section-content {
     /*background-position: center;*/
     background-size:cover;
     max-width: 100rem;
-    min-height: 50vh;
+    min-height: 51vh;
 }
 
 .ai {
@@ -10137,4 +10138,18 @@ a {
 
 #aboutme { 
     min-height: 50vh;
+}
+
+.subhead_experience {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.references { 
+    text-indent: -1rem;
+    margin-left: 1rem;
+}
+
+#h4nocap {
+    text-transform: none;
 }
