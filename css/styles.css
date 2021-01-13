@@ -475,9 +475,10 @@ mark,
   content: "— ";
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
+.img-left {
+  float: left;
+  width: 12.5rem;
+  border-radius: 15px;
 }
 
 .img-thumbnail {
@@ -9988,7 +9989,7 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 17rem;
+    padding-left: 0rem;
   }
 }
 h1,
@@ -10097,7 +10098,7 @@ section.resume-section {
   padding-right: 1rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  max-width: 75rem;
+  max-width: 90rem;
 }
 section.resume-section .resume-section-content {
   width: 100%;
@@ -10107,13 +10108,21 @@ section.resume-section .resume-section-content {
   section.resume-section {
     min-height: 100vh;
   }
+
+  .navbar {
+    padding-left: 1rem;
+  }
 }
 @media (min-width: 992px) {
   section.resume-section {
-    padding-left: 3rem;
+    padding-left: 17rem;
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .navbar {
+    padding-left: 17rem;
   }
 }
 
@@ -10123,8 +10132,9 @@ section.resume-section .resume-section-content {
     background-color: white;
     /*background-position: center;*/
     background-size:cover;
-    max-width: 100rem;
+    max-width: 100%;
     min-height: 51vh;
+    margin-bottom: 1rem;
 }
 
 .ai {
@@ -10137,6 +10147,7 @@ a {
 }
 
 #aboutme { 
+    padding-top: 0rem;
     min-height: 50vh;
 }
 
@@ -10153,3 +10164,9 @@ a {
 #h4nocap {
     text-transform: none;
 }
+
+#p_aboutme {
+    padding-top: 1.5rem;
+    padding-left: 17rem;
+}
+
