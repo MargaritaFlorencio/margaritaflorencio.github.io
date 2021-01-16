@@ -476,8 +476,7 @@ mark,
 }
 
 .img-left {
-  float: left;
-  width: 12.5rem;
+  width: 25%;
   border-radius: 15px;
 }
 
@@ -10166,7 +10165,17 @@ a {
 }
 
 #p_aboutme {
-    padding-top: 1.5rem;
-    padding-left: 17rem;
+
 }
 
+.publication_img {
+    max-width: 100%;
+}
+
+@media (min-width: 992px) {
+    .publication_img {
+        max-width: 60%;
+}
+
+
+}
