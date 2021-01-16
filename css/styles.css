@@ -10077,7 +10077,8 @@ p.lead {
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
-  margin-right: 2em;
+  margin-right: 2.5em;
+  margin-top: 0.5em;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
